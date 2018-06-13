@@ -1,0 +1,28 @@
+body {
+  background: #ece6ff;
+  font-family: Verdana;
+}
+
+.welcome {
+  text-align: center;
+}
+
+button {
+  border: 1px solid #000;
+  padding: 10px;
+  font-size: 15px;
+  transition: all .2s;
+  margin-bottom: 2em;
+}
+
+button:hover {
+  cursor: pointer;
+  font-style: italic;
+  background: #f5fffa;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
